@@ -21,7 +21,7 @@ let handler = async (m, {
             autoCorrect: true
         }).catch(_ => null)
         let lister = Object.keys(await langList())
-        if (!res) throw "Error : Bahasa *" + lang + "* Tidak Support\n\n*Pilih kode yg ada*\n" + lister.map((v) => v).join(", "))
+        if (!res) throw "Error : Bahasa *" + lang + "* Tidak Support\n\n*Pilih kode yg ada*\n" + lister.map((v) => v).join(", ")
 
         let Detect = (res.raw.src.toUpperCase() ? res.raw.src.toUpperCase() : "US")
         let ToLang = (lang.toUpperCase())
