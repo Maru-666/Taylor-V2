@@ -103,7 +103,6 @@
         "mime-types": "*",
         "moment-timezone": "*",
         "mongoose": "*",
-        "node_characterai": "*",
         "node-fetch": "*",
         "node-gtts": "*",
         "node-os-utils": "*",
